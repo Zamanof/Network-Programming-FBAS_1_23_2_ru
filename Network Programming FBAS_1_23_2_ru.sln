@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 01. Socket_Server", "NP 01. Socket_Server\NP 01. Socket_Server.csproj", "{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 01. Socket_Client", "NP 01. Socket_Client\NP 01. Socket_Client.csproj", "{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 01", "SP 01", "{2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,17 @@ Global
 		{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05} = {2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}
+		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB} = {2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E0F40AB-9582-4E48-A0F8-9AF852CD1255}
