@@ -3,11 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 01. Socket_Server", "NP 01. Socket_Server\NP 01. Socket_Server.csproj", "{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 01. Socket_Server", "NP 01. Socket_Server\NP 01. Socket_Server.csproj", "{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 01. Socket_Client", "NP 01. Socket_Client\NP 01. Socket_Client.csproj", "{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 01. Socket_Client", "NP 01. Socket_Client\NP 01. Socket_Client.csproj", "{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 01", "SP 01", "{2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 02", "SP 02", "{D6738E24-7765-4BE2-89CF-3BD0890F1ED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 02. UDP client", "NP 02. UDP client\NP 02. UDP client.csproj", "{D29C62BA-7657-4563-9166-1BBFAD235574}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 02. UDP listener", "NP 02. UDP listener\NP 02. UDP listener.csproj", "{A858A548-5060-46AB-90D3-07DFC36D09AF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D29C62BA-7657-4563-9166-1BBFAD235574}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D29C62BA-7657-4563-9166-1BBFAD235574}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D29C62BA-7657-4563-9166-1BBFAD235574}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D29C62BA-7657-4563-9166-1BBFAD235574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A858A548-5060-46AB-90D3-07DFC36D09AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A858A548-5060-46AB-90D3-07DFC36D09AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A858A548-5060-46AB-90D3-07DFC36D09AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A858A548-5060-46AB-90D3-07DFC36D09AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{8FF3326D-C1E1-4BC3-BA37-A7149C32ED05} = {2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}
 		{48160174-9CAB-4EF9-A52A-B72ABFC98FEB} = {2EC83AB5-16A3-454C-81CB-CB29A3AF0B74}
+		{D29C62BA-7657-4563-9166-1BBFAD235574} = {D6738E24-7765-4BE2-89CF-3BD0890F1ED8}
+		{A858A548-5060-46AB-90D3-07DFC36D09AF} = {D6738E24-7765-4BE2-89CF-3BD0890F1ED8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E0F40AB-9582-4E48-A0F8-9AF852CD1255}
