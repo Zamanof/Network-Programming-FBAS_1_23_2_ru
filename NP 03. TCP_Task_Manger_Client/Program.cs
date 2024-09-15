@@ -3,7 +3,8 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text.Json;
 
-var ip = IPAddress.Loopback;
+//var ip = IPAddress.Loopback;
+var ip = IPAddress.Parse("10.2.13.2");
 var port = 27001;
 var client = new TcpClient();
 client.Connect(ip, port);
