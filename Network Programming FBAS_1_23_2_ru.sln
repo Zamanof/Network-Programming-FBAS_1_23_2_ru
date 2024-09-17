@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 02", "SP 02", "{D6738E24-7765-4BE2-89CF-3BD0890F1ED8}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 02", "NP 02", "{D6738E24-7765-4BE2-89CF-3BD0890F1ED8}"
 	ProjectSection(SolutionItems) = preProject
 		NP 03. UDP Client language Python.py = NP 03. UDP Client language Python.py
 	EndProjectSection
@@ -18,13 +18,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 02. TcpListener", "NP 02
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NP 02. UDP cilent language C", "NP 02. UDP cilent language C\NP 02. UDP cilent language C.vcxproj", "{7207AC5B-B8AE-443C-B511-EBCA3532DD48}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 01", "SP 01", "{94CE2902-5700-4FCA-A4DC-03B2C51F9708}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 01", "NP 01", "{94CE2902-5700-4FCA-A4DC-03B2C51F9708}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 01. Socket_Client", "NP 01. Socket_Client\NP 01. Socket_Client.csproj", "{59F72FF5-8F7F-4AEE-9518-EB80547AF15F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 01. Socket_Server", "NP 01. Socket_Server\NP 01. Socket_Server.csproj", "{5FFA82A9-C450-42A5-BF11-3B7B6B3556D5}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 03", "SP 03", "{2EA172BA-3E3F-4E5A-A74E-B01587E11F54}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 03", "NP 03", "{2EA172BA-3E3F-4E5A-A74E-B01587E11F54}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 03. UdpClient", "NP 03. UdpClient\NP 03. UdpClient.csproj", "{34070975-DA93-4AB6-8F77-16175AF5FC73}"
 EndProject
@@ -34,15 +34,28 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 03. TCP_Task_Manger_List
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 03. TCP_Task_Manger_Client", "NP 03. TCP_Task_Manger_Client\NP 03. TCP_Task_Manger_Client.csproj", "{16D055D8-A1E9-4E73-A97C-1D39B5575B74}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SP 04", "SP 04", "{29B5EA51-7D25-4A2E-97C3-0C8E5126EB73}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 04", "NP 04", "{29B5EA51-7D25-4A2E-97C3-0C8E5126EB73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 04. Broadcast client", "NP 04. Broadcast client\NP 04. Broadcast client.csproj", "{5BC33033-2AE0-4435-80F1-ECB60EBE64C7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 04. Broadcast client", "NP 04. Broadcast client\NP 04. Broadcast client.csproj", "{5BC33033-2AE0-4435-80F1-ECB60EBE64C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 04. Broadcast listener", "NP 04. Broadcast listener\NP 04. Broadcast listener.csproj", "{7F2532AC-5D04-4507-8FD5-82B63F1FD104}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 04. Broadcast listener", "NP 04. Broadcast listener\NP 04. Broadcast listener.csproj", "{7F2532AC-5D04-4507-8FD5-82B63F1FD104}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 04. Multicast group client", "NP 04. Multicast group client\NP 04. Multicast group client.csproj", "{A799FF57-D75A-44A8-8F20-BCD100CB9E38}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 04. Multicast group client", "NP 04. Multicast group client\NP 04. Multicast group client.csproj", "{A799FF57-D75A-44A8-8F20-BCD100CB9E38}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 04. Multicast group listener", "NP 04. Multicast group listener\NP 04. Multicast group listener.csproj", "{2F8179E7-EED0-4D1C-81AE-74A1F8545071}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 04. Multicast group listener", "NP 04. Multicast group listener\NP 04. Multicast group listener.csproj", "{2F8179E7-EED0-4D1C-81AE-74A1F8545071}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NP 05", "NP 05", "{F37CCE4B-59E8-48E7-A4D5-D5C7BF3744C2}"
+	ProjectSection(SolutionItems) = preProject
+		index.html = index.html
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NP 05. HTTP Client", "NP 05. HTTP Client\NP 05. HTTP Client.csproj", "{F0BB13A4-806A-4E73-80E1-5B5C4F598302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. HttpClient example", "NP 05. HttpClient example\NP 05. HttpClient example.csproj", "{1459FC60-703B-42B6-8160-97EC72D28DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. Http Listener", "NP 05. Http Listener\NP 05. Http Listener.csproj", "{159E54F7-9ED2-4EC6-B36C-145F02ABB851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NP 05. Http Listener with html", "NP 05. Http Listener with html\NP 05. Http Listener with html.csproj", "{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -234,6 +247,54 @@ Global
 		{2F8179E7-EED0-4D1C-81AE-74A1F8545071}.Release|x64.Build.0 = Release|Any CPU
 		{2F8179E7-EED0-4D1C-81AE-74A1F8545071}.Release|x86.ActiveCfg = Release|Any CPU
 		{2F8179E7-EED0-4D1C-81AE-74A1F8545071}.Release|x86.Build.0 = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|x64.Build.0 = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Debug|x86.Build.0 = Debug|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|x64.ActiveCfg = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|x64.Build.0 = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|x86.ActiveCfg = Release|Any CPU
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302}.Release|x86.Build.0 = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|x64.Build.0 = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Debug|x86.Build.0 = Debug|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|x64.ActiveCfg = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|x64.Build.0 = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|x86.ActiveCfg = Release|Any CPU
+		{1459FC60-703B-42B6-8160-97EC72D28DE5}.Release|x86.Build.0 = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|x64.Build.0 = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Debug|x86.Build.0 = Debug|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|x64.ActiveCfg = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|x64.Build.0 = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|x86.ActiveCfg = Release|Any CPU
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851}.Release|x86.Build.0 = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|x64.Build.0 = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|x64.ActiveCfg = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|x64.Build.0 = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -254,6 +315,10 @@ Global
 		{7F2532AC-5D04-4507-8FD5-82B63F1FD104} = {29B5EA51-7D25-4A2E-97C3-0C8E5126EB73}
 		{A799FF57-D75A-44A8-8F20-BCD100CB9E38} = {29B5EA51-7D25-4A2E-97C3-0C8E5126EB73}
 		{2F8179E7-EED0-4D1C-81AE-74A1F8545071} = {29B5EA51-7D25-4A2E-97C3-0C8E5126EB73}
+		{F0BB13A4-806A-4E73-80E1-5B5C4F598302} = {F37CCE4B-59E8-48E7-A4D5-D5C7BF3744C2}
+		{1459FC60-703B-42B6-8160-97EC72D28DE5} = {F37CCE4B-59E8-48E7-A4D5-D5C7BF3744C2}
+		{159E54F7-9ED2-4EC6-B36C-145F02ABB851} = {F37CCE4B-59E8-48E7-A4D5-D5C7BF3744C2}
+		{93FD11FB-253B-4869-88BC-B96FA8FF8F6B} = {F37CCE4B-59E8-48E7-A4D5-D5C7BF3744C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6E0F40AB-9582-4E48-A0F8-9AF852CD1255}
